@@ -1,0 +1,3480 @@
+[
+    {
+        "id": "3621834d7ae590de",
+        "type": "tab",
+        "label": "LOCATION",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5e7c129edcf993b5",
+        "type": "tab",
+        "label": "Simulation",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7fdcf755e44b4247",
+        "type": "tab",
+        "label": "POWAR",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0d1cdfb81967bce4",
+        "type": "tab",
+        "label": "MQTT OUT",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "37be32cafa7f2402",
+        "type": "tab",
+        "label": "Future Cities",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fe04a20711027c8a",
+        "type": "group",
+        "z": "3621834d7ae590de",
+        "name": "FAVOURITES",
+        "style": {
+            "stroke": "#3f93cf",
+            "label": true,
+            "fill": "#bfdbef",
+            "label-position": "sw",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "e42d9da6eda0c912",
+            "c7ed3cc2bb108d7c",
+            "8e5e8a8abadb2a7a",
+            "1bf143f602aef8b3",
+            "76e136858a6ce01d",
+            "7fc17258f66da1d1",
+            "d22430c9a89f67e8",
+            "7231ec5cad5ac852",
+            "6093462c93c679ea",
+            "15c45773ebf5c4fb",
+            "91bc711e3f068e6c",
+            "3b90e3a143f96c71",
+            "1084d940390735b4"
+        ],
+        "x": 94,
+        "y": 279,
+        "w": 472,
+        "h": 550
+    },
+    {
+        "id": "df29afadda683d80",
+        "type": "group",
+        "z": "3621834d7ae590de",
+        "name": "INFORMATION",
+        "style": {
+            "stroke": "#7fb7df",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#ff0000",
+            "label-position": "sw"
+        },
+        "nodes": [
+            "e963f37268447f08",
+            "873eec7572b884e8",
+            "1bbf7bdfd7d339f4",
+            "c5afdb8b5068ceb8",
+            "c20e4b0acc0565c1",
+            "d134871e858fe421",
+            "2ddfbc6dbe70cf8b",
+            "c6555a1c5de7dc7d",
+            "df9fa1c86128807b",
+            "6cc8f1f19025e323",
+            "67024c91429944ed",
+            "b63a018e8b8e6af0",
+            "a17de18a78e489a9",
+            "31fe9e219654ccdb",
+            "a20b8bde2f729ed7",
+            "c36015976fa0fe70",
+            "4ebeea48f04588f1",
+            "65cd340bd8acc9dc",
+            "cbb9e027a2d8b452",
+            "ab2660ad5b4cd349",
+            "04de78a5fbc4d014",
+            "b9be1361c1813a5d"
+        ],
+        "x": 1084,
+        "y": 279,
+        "w": 602,
+        "h": 710
+    },
+    {
+        "id": "be515224dfc363e2",
+        "type": "group",
+        "z": "3621834d7ae590de",
+        "name": "API call",
+        "style": {
+            "stroke": "#7fb7df",
+            "fill": "#bfdbef",
+            "label": true,
+            "label-position": "sw",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "b672b43050a53849",
+            "73456a9147cebfe3",
+            "974438459e44f49c",
+            "7427eab1a1408371",
+            "949ed9c0133ac1fb",
+            "949566dfa0bea90f",
+            "405d55613fc7fd65",
+            "e1b7796587d4fc8a",
+            "5c0e8e6d76a9929a",
+            "989edbff85a9e925",
+            "cd37f265a91fbed8",
+            "e18a628e930e1d53",
+            "e62b0d4056e08caa",
+            "936959a04e8d7e9f"
+        ],
+        "x": 94,
+        "y": 19,
+        "w": 1132,
+        "h": 210
+    },
+    {
+        "id": "740c9f8e6eb626b7",
+        "type": "group",
+        "z": "3621834d7ae590de",
+        "name": "MAP",
+        "style": {
+            "stroke": "#7fb7df",
+            "fill": "#bfdbef",
+            "label": true,
+            "label-position": "sw",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "45f61888bdecd220",
+            "ced43e9ab764a3e3",
+            "71c2d488c37a8d2c",
+            "f3770670fb200eb1",
+            "d9e15c0ec76db2ca",
+            "96113286fa879a65"
+        ],
+        "x": 634,
+        "y": 279,
+        "w": 392,
+        "h": 150
+    },
+    {
+        "id": "991182f9dc487071",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "POWAR1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#6db046",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4b7930",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial,Arial,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "POWAR - Plant Observatory of Weather Adaptability for Resilience",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "icon",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "32c559b8c4204655",
+        "type": "ui_tab",
+        "name": "City Weather",
+        "icon": "location_on",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ccf4f99959e87c68",
+        "type": "ui_group",
+        "name": "Search",
+        "tab": "32c559b8c4204655",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3de2ab6dbfb71c3e",
+        "type": "ui_group",
+        "name": "Map",
+        "tab": "32c559b8c4204655",
+        "order": 2,
+        "disp": true,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "98f47925a9bacd37",
+        "type": "ui_group",
+        "name": "Information",
+        "tab": "32c559b8c4204655",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "70b3e603372b6a75",
+        "type": "ui_tab",
+        "name": "Simulation",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b82ae05efe6e7f0a",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "70b3e603372b6a75",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "254c4fa0178a9c51",
+        "type": "ui_group",
+        "name": "Sun Events",
+        "tab": "70b3e603372b6a75",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c572c4b1cc6bbbdd",
+        "type": "ui_group",
+        "name": "Weather: ",
+        "tab": "70b3e603372b6a75",
+        "order": 3,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "938da452369e7d7b",
+        "type": "ui_tab",
+        "name": "POWAR",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f672dd6ecd7320b0",
+        "type": "ui_group",
+        "name": "Temperature and Humidity",
+        "tab": "938da452369e7d7b",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fcd706e00d0dbcce",
+        "type": "ui_group",
+        "name": "Soil Moisture",
+        "tab": "938da452369e7d7b",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d66977ddac72d2cd",
+        "type": "soop_dashboard_config"
+    },
+    {
+        "id": "76f4968f5326e217",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "51.68.165.241",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "42ab661b1ed7eaca",
+        "type": "ui_group",
+        "name": "Light",
+        "tab": "938da452369e7d7b",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6d31990ff8d9818d",
+        "type": "ui_tab",
+        "name": "Future Cities",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "28a0295e4c837aae",
+        "type": "ui_group",
+        "name": "Future Cities Weather",
+        "tab": "6d31990ff8d9818d",
+        "order": 1,
+        "disp": true,
+        "width": 28,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b672b43050a53849",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "group": "ccf4f99959e87c68",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "<i class=\"material-icons\">add_location</i>SPECIFIC:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 320,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "73456a9147cebfe3",
+        "type": "ui_form",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "",
+        "label": "",
+        "group": "ccf4f99959e87c68",
+        "order": 2,
+        "width": 6,
+        "height": 2,
+        "options": [
+            {
+                "label": "City Name: (mandatory)",
+                "value": "city",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Country code: (not mandatory)",
+                "value": "country",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "city": "",
+            "country": ""
+        },
+        "payload": "",
+        "submit": "Search",
+        "cancel": "Cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "7427eab1a1408371",
+                "cd37f265a91fbed8"
+            ]
+        ]
+    },
+    {
+        "id": "974438459e44f49c",
+        "type": "http request",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "Geocoding Request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 600,
+        "y": 180,
+        "wires": [
+            [
+                "949ed9c0133ac1fb",
+                "e18a628e930e1d53"
+            ]
+        ]
+    },
+    {
+        "id": "7427eab1a1408371",
+        "type": "template",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "",
+        "field": "url",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "http://api.openweathermap.org/geo/1.0/direct?q={{payload.city}},{{payload.country}}&appid=cf20aff1d4ae6cef2fe84d3846067f83\n",
+        "output": "str",
+        "x": 435,
+        "y": 180,
+        "wires": [
+            [
+                "974438459e44f49c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "949ed9c0133ac1fb",
+        "type": "change",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "latitud",
+                "pt": "msg",
+                "to": "payload[0].lat",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "longitud",
+                "pt": "msg",
+                "to": "payload[0].lon",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 775,
+        "y": 180,
+        "wires": [
+            [
+                "949566dfa0bea90f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "949566dfa0bea90f",
+        "type": "template",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "",
+        "field": "url",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://api.openweathermap.org/data/2.5/weather?lat={{latitud}}&lon={{longitud}}&units=metric&appid=e382ef9222d993e72b20a3389bf26a54",
+        "output": "str",
+        "x": 845,
+        "y": 180,
+        "wires": [
+            [
+                "405d55613fc7fd65"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "405d55613fc7fd65",
+        "type": "http request",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "Open Weather Request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1010,
+        "y": 180,
+        "wires": [
+            [
+                "e1b7796587d4fc8a"
+            ]
+        ]
+    },
+    {
+        "id": "e1b7796587d4fc8a",
+        "type": "link out",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "Open Weather",
+        "mode": "link",
+        "links": [
+            "e963f37268447f08",
+            "ced43e9ab764a3e3",
+            "eac5185daa32306f",
+            "8479fbb6d87e2e38",
+            "4e908cb12de0399f",
+            "08c9a76777b07179"
+        ],
+        "x": 1185,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e963f37268447f08",
+        "type": "link in",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "name": "link in 1",
+        "links": [
+            "e1b7796587d4fc8a"
+        ],
+        "x": 1125,
+        "y": 540,
+        "wires": [
+            [
+                "d134871e858fe421",
+                "2ddfbc6dbe70cf8b",
+                "c6555a1c5de7dc7d",
+                "67024c91429944ed",
+                "b63a018e8b8e6af0",
+                "a17de18a78e489a9",
+                "31fe9e219654ccdb",
+                "a20b8bde2f729ed7",
+                "65cd340bd8acc9dc",
+                "cbb9e027a2d8b452",
+                "04de78a5fbc4d014"
+            ]
+        ]
+    },
+    {
+        "id": "e42d9da6eda0c912",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "group": "ccf4f99959e87c68",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "<i class=\"material-icons\">location_on</i> FAVORITE:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 340,
+        "y": 320,
+        "wires": [],
+        "info": "<i class=\"material-icons\">location_on</i> FAVORITE:"
+    },
+    {
+        "id": "c7ed3cc2bb108d7c",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Bogotá, CO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "star",
+        "payload": "{\"city\":\"Bogota\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 420,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "8e5e8a8abadb2a7a",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Barcelona, ES",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"Barcelona\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 460,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "1bf143f602aef8b3",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Athens, GR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"Athens\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 500,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "76e136858a6ce01d",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Bali, ID",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"Bali\",\"country\":\"ID\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 580,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "7fc17258f66da1d1",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Lisbon, PT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"Lisbon\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 540,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "d22430c9a89f67e8",
+        "type": "link out",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "5c0e8e6d76a9929a"
+        ],
+        "x": 365,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5c0e8e6d76a9929a",
+        "type": "link in",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "link in 2",
+        "links": [
+            "d22430c9a89f67e8",
+            "79f5a5d7cf5a006b"
+        ],
+        "x": 355,
+        "y": 140,
+        "wires": [
+            [
+                "7427eab1a1408371",
+                "cd37f265a91fbed8"
+            ]
+        ]
+    },
+    {
+        "id": "7231ec5cad5ac852",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Rome, IT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"Rome\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 660,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "6093462c93c679ea",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Cartagena, CO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"Cartagena\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 620,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "15c45773ebf5c4fb",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Marrakesh, MA",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"Marrakesh\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 700,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "91bc711e3f068e6c",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "London, UK",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"London\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 740,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "3b90e3a143f96c71",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Los Angeles, US",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"city\":\"Los Angeles\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 780,
+        "wires": [
+            [
+                "d22430c9a89f67e8"
+            ]
+        ]
+    },
+    {
+        "id": "873eec7572b884e8",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "<i class=\"material-icons\">map</i> LOCATION:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#ffffff",
+        "x": 1480,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "1bbf7bdfd7d339f4",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "<i class=\"material-icons\">zoom_out_map</i> CORDINATES:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1440,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "c5afdb8b5068ceb8",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "<i class=\"fa fa-thermometer-full\" aria-hidden=\"true\"></i> TEMPERATURE:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c20e4b0acc0565c1",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 23,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "<i class=\"wi wi-darksky-wind\"></i> SKY:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1500,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "989edbff85a9e925",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "group": "98f47925a9bacd37",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "City",
+        "label": "CITY:",
+        "format": "{{msg.payload.city}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 550,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d134871e858fe421",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "Country",
+        "label": "COUNTRY: ",
+        "format": "{{msg.payload.sys.country}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "2ddfbc6dbe70cf8b",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "name": "Latitude",
+        "label": "LAT: ",
+        "format": "{{msg.payload.coord.lat}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "c6555a1c5de7dc7d",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "name": "Longitud",
+        "label": "LON: ",
+        "format": "{{msg.payload.coord.lon}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "df9fa1c86128807b",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 14,
+        "width": 3,
+        "height": 1,
+        "name": "MaxTemp",
+        "label": "MAX: ",
+        "format": "{{msg.payload}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6cc8f1f19025e323",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 16,
+        "width": 3,
+        "height": 1,
+        "name": "MinTemp",
+        "label": "MIN: ",
+        "format": "{{msg.payload}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "67024c91429944ed",
+        "type": "change",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.main.temp_max)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1235,
+        "y": 660,
+        "wires": [
+            [
+                "df9fa1c86128807b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b63a018e8b8e6af0",
+        "type": "change",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.main.temp_min)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1235,
+        "y": 700,
+        "wires": [
+            [
+                "6cc8f1f19025e323"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a17de18a78e489a9",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 25,
+        "width": 3,
+        "height": 1,
+        "name": "Sky",
+        "label": "SKY: ",
+        "format": "{{msg.payload.weather[0].description}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1410,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "31fe9e219654ccdb",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 29,
+        "width": 3,
+        "height": 1,
+        "name": "Speed",
+        "label": "WIND SPEED: ",
+        "format": "{{msg.payload.wind.speed}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1410,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "a20b8bde2f729ed7",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 31,
+        "width": 3,
+        "height": 1,
+        "name": "Humidity",
+        "label": "HUMIDITY: ",
+        "format": "{{msg.payload.main.humidity}} %",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "c36015976fa0fe70",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 22,
+        "width": 3,
+        "height": 1,
+        "name": "Sunset",
+        "label": "SET: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "4ebeea48f04588f1",
+        "type": "ui_gauge",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "name": "Wind Direction",
+        "group": "98f47925a9bacd37",
+        "order": 27,
+        "width": 3,
+        "height": 3,
+        "gtype": "compass",
+        "title": "",
+        "label": "{{msg.payload.dir}}",
+        "format": "{{msg.payload.wind.deg}}",
+        "min": 0,
+        "max": "360",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1380,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "65cd340bd8acc9dc",
+        "type": "function",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "name": "function 1",
+        "func": "var meteorologicalDegrees = msg.payload.wind.deg; // Obtiene los grados meteorológicos desde el payload\n\nvar windDirection = \"\"; // Variable para almacenar la dirección del viento\n\n// Asigna la dirección del viento según los grados meteorológicos\nif (meteorologicalDegrees >= 337.5 || meteorologicalDegrees < 22.5) {\n    windDirection = \"N\";\n} else if (meteorologicalDegrees >= 22.5 && meteorologicalDegrees < 67.5) {\n    windDirection = \"NE\";\n} else if (meteorologicalDegrees >= 67.5 && meteorologicalDegrees < 112.5) {\n    windDirection = \"E\";\n} else if (meteorologicalDegrees >= 112.5 && meteorologicalDegrees < 157.5) {\n    windDirection = \"SE\";\n} else if (meteorologicalDegrees >= 157.5 && meteorologicalDegrees < 202.5) {\n    windDirection = \"S\";\n} else if (meteorologicalDegrees >= 202.5 && meteorologicalDegrees < 247.5) {\n    windDirection = \"SW\";\n} else if (meteorologicalDegrees >= 247.5 && meteorologicalDegrees < 292.5) {\n    windDirection = \"W\";\n} else if (meteorologicalDegrees >= 292.5 && meteorologicalDegrees < 337.5) {\n    windDirection = \"NW\";\n}\n\nmsg.payload.dir = windDirection; // Establece la dirección del viento como salida del mensaje\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1235,
+        "y": 860,
+        "wires": [
+            [
+                "4ebeea48f04588f1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cbb9e027a2d8b452",
+        "type": "function",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "name": "function 2",
+        "func": "var timestamp = msg.payload.sys.sunset; // Obtener el valor del timestamp\nvar timezoneOffset = msg.payload.timezone; // Obtener el valor del desplazamiento de la zona horaria en segundos\n\n// Crear un objeto Date con el timestamp y aplicar el desplazamiento de la zona horaria\nvar date = new Date((timestamp + timezoneOffset) * 1000);\n\n// Obtener la hora y los minutos en formato HH:mm\nvar horaMinutos = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });\n\n// Establecer el resultado en el mensaje\nmsg.payload = horaMinutos;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1235,
+        "y": 900,
+        "wires": [
+            [
+                "c36015976fa0fe70"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ab2660ad5b4cd349",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 20,
+        "width": 3,
+        "height": 1,
+        "name": "Sunrise",
+        "label": "RISE: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "04de78a5fbc4d014",
+        "type": "function",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "name": "function 3",
+        "func": "var timestamp = msg.payload.sys.sunrise; // Obtener el valor del timestamp\nvar timezoneOffset = msg.payload.timezone; // Obtener el valor del desplazamiento de la zona horaria en segundos\n\n// Crear un objeto Date con el timestamp y aplicar el desplazamiento de la zona horaria\nvar date = new Date((timestamp + timezoneOffset) * 1000);\n\n// Obtener la hora y los minutos en formato HH:mm\nvar horaMinutos = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });\n\n// Establecer el resultado en el mensaje\nmsg.payload = horaMinutos;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1235,
+        "y": 940,
+        "wires": [
+            [
+                "ab2660ad5b4cd349"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ced43e9ab764a3e3",
+        "type": "link in",
+        "z": "3621834d7ae590de",
+        "g": "740c9f8e6eb626b7",
+        "name": "link in 3",
+        "links": [
+            "e1b7796587d4fc8a"
+        ],
+        "x": 695,
+        "y": 320,
+        "wires": [
+            [
+                "f3770670fb200eb1"
+            ]
+        ]
+    },
+    {
+        "id": "71c2d488c37a8d2c",
+        "type": "template",
+        "z": "3621834d7ae590de",
+        "g": "740c9f8e6eb626b7",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\"name\":\"{{flow.city}}\", \"lat\":\"{{latitud}}\", \"lon\":\"{{longitud}}\", \"Min Temp\":\"{{flow.mintemp}}°C\", \"Max Temp\":\"{{flow.maxtemp}}°C\", \"icon\":\"wi-owm-{{payload}}\", \"layer\":\"ciudades\"}",
+        "output": "json",
+        "x": 815,
+        "y": 320,
+        "wires": [
+            [
+                "45f61888bdecd220"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cd37f265a91fbed8",
+        "type": "change",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "city",
+                "pt": "flow",
+                "to": "payload.city",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 435,
+        "y": 100,
+        "wires": [
+            [
+                "989edbff85a9e925",
+                "e62b0d4056e08caa",
+                "936959a04e8d7e9f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f3770670fb200eb1",
+        "type": "change",
+        "z": "3621834d7ae590de",
+        "g": "740c9f8e6eb626b7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mintemp",
+                "pt": "flow",
+                "to": "$round(payload.main.temp_min)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "maxtemp",
+                "pt": "flow",
+                "to": "$round(payload.main.temp_max)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.weather[0].icon",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 755,
+        "y": 320,
+        "wires": [
+            [
+                "71c2d488c37a8d2c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d9e15c0ec76db2ca",
+        "type": "ui_button",
+        "z": "3621834d7ae590de",
+        "g": "740c9f8e6eb626b7",
+        "name": "",
+        "group": "ccf4f99959e87c68",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "CLEAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "custom-text",
+        "icon": "delete_sweep",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 720,
+        "y": 380,
+        "wires": [
+            [
+                "96113286fa879a65"
+            ]
+        ]
+    },
+    {
+        "id": "96113286fa879a65",
+        "type": "change",
+        "z": "3621834d7ae590de",
+        "g": "740c9f8e6eb626b7",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.command.clear",
+                "pt": "msg",
+                "to": "ciudades",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 815,
+        "y": 380,
+        "wires": [
+            [
+                "45f61888bdecd220"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1084d940390735b4",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "fe04a20711027c8a",
+        "group": "ccf4f99959e87c68",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "ACTIONS",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 200,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "b9be1361c1813a5d",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "df29afadda683d80",
+        "group": "98f47925a9bacd37",
+        "order": 18,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "<i class=\"material-icons\">sunny</i>SUN:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1500,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "604eb4edd2fa1d12",
+        "type": "ui_template",
+        "z": "3621834d7ae590de",
+        "group": "98f47925a9bacd37",
+        "name": "",
+        "order": 28,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .nr-dashboard-text {\n        border-width: 3px;\n        border-color: green;\n        border-style: solid;\n        font-family: Arial, sans-serif;\n        font-size: 14px;\n        color: white;\n    }\n\n    .custom-text {\n        font-size: 16px;\n        font-weight: bold;\n        border-width: 5px;\n        border-color: white;\n    }\n\n    .small-text {\n        font-size: 12px;\n        color: white;\n        font-family: Arial, sans-serif;\n    }\n\n    .nr-dashboard-text.encabezado {\n        /* Estilos personalizados para el elemento de texto en el encabezado */\n        font-family: Arial, sans-serif;\n        font-size: 16px;\n        font-weight: bold;\n        color: green;\n        background-color: white;\n    }\n\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "CSS",
+        "x": 720,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e18a628e930e1d53",
+        "type": "debug",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e62b0d4056e08caa",
+        "type": "ui_text",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "group": "254c4fa0178a9c51",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "City",
+        "label": "",
+        "format": "{{msg.payload.city}}",
+        "layout": "row-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 550,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "936959a04e8d7e9f",
+        "type": "mqtt out",
+        "z": "3621834d7ae590de",
+        "g": "be515224dfc363e2",
+        "name": "",
+        "topic": "CITY/ciudad",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "76f4968f5326e217",
+        "x": 710,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "45f61888bdecd220",
+        "type": "ui_worldmap",
+        "z": "3621834d7ae590de",
+        "g": "740c9f8e6eb626b7",
+        "group": "3de2ab6dbfb71c3e",
+        "order": 1,
+        "width": 12,
+        "height": 12,
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "EsriDG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,AC,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 940,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "eac5185daa32306f",
+        "type": "link in",
+        "z": "5e7c129edcf993b5",
+        "name": "link in 4",
+        "links": [
+            "e1b7796587d4fc8a"
+        ],
+        "x": 1115,
+        "y": 40,
+        "wires": [
+            [
+                "ca7d3b886c8e735c",
+                "3bd1221696baf31d",
+                "8f970bfb0a34cf35",
+                "313959b6b56b8d39",
+                "65b59a0f835810d4",
+                "0153ec8e0702760d",
+                "836871d43c22e72e",
+                "9e35442f7c807f0c",
+                "5b5d8ca336878cd2"
+            ]
+        ]
+    },
+    {
+        "id": "4a6f2a7f66e6bae3",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "b82ae05efe6e7f0a",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "MaxTemp",
+        "label": "MAX: ",
+        "format": "{{msg.payload}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "31be53a37546d37e",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "b82ae05efe6e7f0a",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "MinTemp",
+        "label": "MIN: ",
+        "format": "{{msg.payload}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4914421e945e24a4",
+        "type": "change",
+        "z": "5e7c129edcf993b5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.main.temp_max)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 475,
+        "y": 220,
+        "wires": [
+            [
+                "4a6f2a7f66e6bae3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "786a227c97b6ff3c",
+        "type": "change",
+        "z": "5e7c129edcf993b5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.main.temp_min)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 475,
+        "y": 260,
+        "wires": [
+            [
+                "31be53a37546d37e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ca7d3b886c8e735c",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "Sky",
+        "label": "",
+        "format": "{{msg.payload.weather[0].description}}",
+        "layout": "col-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1410,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "3bd1221696baf31d",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "name": "Speed",
+        "label": "WIND SPEED: ",
+        "format": "{{msg.payload.wind.speed}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1410,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8f970bfb0a34cf35",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "name": "Humidity",
+        "label": "HUMIDITY: ",
+        "format": "{{msg.payload.main.humidity}} %",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "71344dbbe6c4ec59",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "254c4fa0178a9c51",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "Sunset",
+        "label": "SUNSET: ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "05784d1ffe3d6b04",
+        "type": "ui_gauge",
+        "z": "5e7c129edcf993b5",
+        "name": "Wind Direction",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 3,
+        "width": 8,
+        "height": 7,
+        "gtype": "compass",
+        "title": "",
+        "label": "{{msg.payload.dir}}",
+        "format": "{{msg.payload.wind.deg}}",
+        "min": 0,
+        "max": "360",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1380,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "313959b6b56b8d39",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 4",
+        "func": "var meteorologicalDegrees = msg.payload.wind.deg; // Obtiene los grados meteorológicos desde el payload\n\nvar windDirection = \"\"; // Variable para almacenar la dirección del viento\n\n// Asigna la dirección del viento según los grados meteorológicos\nif (meteorologicalDegrees >= 337.5 || meteorologicalDegrees < 22.5) {\n    windDirection = \"N\";\n} else if (meteorologicalDegrees >= 22.5 && meteorologicalDegrees < 67.5) {\n    windDirection = \"NE\";\n} else if (meteorologicalDegrees >= 67.5 && meteorologicalDegrees < 112.5) {\n    windDirection = \"E\";\n} else if (meteorologicalDegrees >= 112.5 && meteorologicalDegrees < 157.5) {\n    windDirection = \"SE\";\n} else if (meteorologicalDegrees >= 157.5 && meteorologicalDegrees < 202.5) {\n    windDirection = \"S\";\n} else if (meteorologicalDegrees >= 202.5 && meteorologicalDegrees < 247.5) {\n    windDirection = \"SW\";\n} else if (meteorologicalDegrees >= 247.5 && meteorologicalDegrees < 292.5) {\n    windDirection = \"W\";\n} else if (meteorologicalDegrees >= 292.5 && meteorologicalDegrees < 337.5) {\n    windDirection = \"NW\";\n}\n\nmsg.payload.dir = windDirection; // Establece la dirección del viento como salida del mensaje\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1215,
+        "y": 160,
+        "wires": [
+            [
+                "05784d1ffe3d6b04",
+                "dc09dff63654e5e8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e230031c55cbc6b5",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 5",
+        "func": "var timestamp = msg.payload.sys.sunset; // Obtener el valor del timestamp\nvar timezoneOffset = msg.payload.timezone; // Obtener el valor del desplazamiento de la zona horaria en segundos\n\n// Crear un objeto Date con el timestamp y aplicar el desplazamiento de la zona horaria\nvar date = new Date((timestamp + timezoneOffset) * 1000);\n\n// Obtener la hora y los minutos en formato HH:mm\nvar horaMinutos = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });\n\n// Establecer el resultado en el mensaje\nmsg.payload = horaMinutos;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 495,
+        "y": 560,
+        "wires": [
+            [
+                "71344dbbe6c4ec59"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "dc0cf19382be8b9f",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "254c4fa0178a9c51",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "Sunrise",
+        "label": "SUNRISE: ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "f8cd6eea4e1617f6",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 6",
+        "func": "var timestamp = msg.payload.sys.sunrise; // Obtener el valor del timestamp\nvar timezoneOffset = msg.payload.timezone; // Obtener el valor del desplazamiento de la zona horaria en segundos\n\n// Crear un objeto Date con el timestamp y aplicar el desplazamiento de la zona horaria\nvar date = new Date((timestamp + timezoneOffset) * 1000);\n\n// Obtener la hora y los minutos en formato HH:mm\nvar horaMinutos = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });\n\n// Establecer el resultado en el mensaje\nmsg.payload = horaMinutos;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 495,
+        "y": 600,
+        "wires": [
+            [
+                "dc0cf19382be8b9f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8479fbb6d87e2e38",
+        "type": "link in",
+        "z": "5e7c129edcf993b5",
+        "name": "link in 5",
+        "links": [
+            "e1b7796587d4fc8a"
+        ],
+        "x": 325,
+        "y": 180,
+        "wires": [
+            [
+                "4914421e945e24a4",
+                "786a227c97b6ff3c",
+                "3ef72469480297f1",
+                "3acf12d721bcf3db",
+                "2c6c62c3e80b4a9e",
+                "ba951669e93ed12f"
+            ]
+        ]
+    },
+    {
+        "id": "4e908cb12de0399f",
+        "type": "link in",
+        "z": "5e7c129edcf993b5",
+        "name": "link in 6",
+        "links": [
+            "e1b7796587d4fc8a"
+        ],
+        "x": 325,
+        "y": 560,
+        "wires": [
+            [
+                "e230031c55cbc6b5",
+                "f8cd6eea4e1617f6",
+                "afb71f5a47a8c6bc",
+                "9646f09e64580f5e",
+                "33982b96f8cd6b79",
+                "952e9e6c6edb0f6c",
+                "ba98b8b2c99c0d37"
+            ]
+        ]
+    },
+    {
+        "id": "f06ed3ae9cb48a55",
+        "type": "ui_gauge",
+        "z": "5e7c129edcf993b5",
+        "name": "Sunlight",
+        "group": "254c4fa0178a9c51",
+        "order": 5,
+        "width": 4,
+        "height": 4,
+        "gtype": "donut",
+        "title": "",
+        "label": "SUNLIGHT",
+        "format": "{{msg.payload.daylightPercentage}} %",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ffffff",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 640,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "9646f09e64580f5e",
+        "type": "debug",
+        "z": "5e7c129edcf993b5",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "30b59ebdbb8f4e66",
+        "type": "ui_gauge",
+        "z": "5e7c129edcf993b5",
+        "name": "clouds",
+        "group": "254c4fa0178a9c51",
+        "order": 6,
+        "width": 4,
+        "height": 4,
+        "gtype": "donut",
+        "title": "",
+        "label": "CLOUD EFFECT",
+        "format": "{{msg.payload.daylightclouds}} %",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ffffff",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 630,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "da3982927c4d423c",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "b82ae05efe6e7f0a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Temp C",
+        "label": "Temp C",
+        "format": "{{msg.payload}} ºC",
+        "layout": "row-center",
+        "className": "encabezado",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "3acf12d721bcf3db",
+        "type": "change",
+        "z": "5e7c129edcf993b5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.main.temp)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 475,
+        "y": 180,
+        "wires": [
+            [
+                "da3982927c4d423c",
+                "aa7bf514ec80a808"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7c2e1a8632e9139c",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "b82ae05efe6e7f0a",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "FeelsLike",
+        "label": "FEELS LIKE:",
+        "format": "{{msg.payload}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3ef72469480297f1",
+        "type": "change",
+        "z": "5e7c129edcf993b5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.main.feels_like)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 475,
+        "y": 300,
+        "wires": [
+            [
+                "7c2e1a8632e9139c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1138898eb157edf9",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "b82ae05efe6e7f0a",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "name": "Fahrenheit: ",
+        "label": "Fahrenheit: ",
+        "format": "{{msg.payload}} ºF",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 650,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "2c6c62c3e80b4a9e",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 7",
+        "func": "var celsius = msg.payload.main.temp; // Temperatura en grados centígrados\n\nvar kelvin = Math.round(celsius + 273.15); // Conversión a Kelvin\n\nmsg.payload = kelvin; // Establece el resultado como salida del mensaje\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 340,
+        "wires": [
+            [
+                "1138898eb157edf9"
+            ]
+        ]
+    },
+    {
+        "id": "fcf6bce9f847c12c",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "b82ae05efe6e7f0a",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "Kelvin",
+        "label": "Kelvin: ",
+        "format": "{{msg.payload}} K",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ba951669e93ed12f",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 8",
+        "func": "var celsius = msg.payload.main.temp; // Temperatura en grados centígrados\n\n// Conversión a Fahrenheit\nvar fahrenheit = Math.round((celsius * 9 / 5) + 32);\n\nmsg.payload = fahrenheit;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 380,
+        "wires": [
+            [
+                "fcf6bce9f847c12c"
+            ]
+        ]
+    },
+    {
+        "id": "65b59a0f835810d4",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "name": "Clouds",
+        "label": "CLOUDS: ",
+        "format": "{{msg.payload.clouds.all}} %",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "dc09dff63654e5e8",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "Direction",
+        "label": "DIRECTION:",
+        "format": "{{msg.payload.dir}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c7b24314079e375a",
+        "type": "ui_template",
+        "z": "5e7c129edcf993b5",
+        "group": "b82ae05efe6e7f0a",
+        "name": "",
+        "order": 8,
+        "width": 8,
+        "height": 1,
+        "format": "<style>\n    .nr-dashboard-text {\n        border-width: 3px;\n        border-color: green;\n        border-style: solid;\n        font-family: Arial, sans-serif;\n        font-size: 14px;\n        color: white;\n    }\n\n    .custom-text {\n        font-size: 16px;\n        font-weight: bold;\n        border-width: 5px;\n        border-color: white;\n    }\n\n    .small-text {\n        font-size: 12px;\n        color: white;\n        font-family: Arial, sans-serif;\n    }\n\n    .nr-dashboard-text.encabezado {\n        /* Estilos personalizados para el elemento de texto en el encabezado */\n        font-family: Arial, sans-serif;\n        font-size: 16px;\n        font-weight: bold;\n        color: green;\n        background-color: white;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "CSS",
+        "x": 940,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa7bf514ec80a808",
+        "type": "ui_gauge",
+        "z": "5e7c129edcf993b5",
+        "name": "",
+        "group": "b82ae05efe6e7f0a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "Temperature",
+        "format": "{{value}} ºC",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00fffb",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "17",
+        "seg2": "35",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "afb71f5a47a8c6bc",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "Sunlight-Clouds",
+        "func": "var timestamp = msg.payload.dt; // Timestamp in seconds\nvar timezoneOffset = msg.payload.timezone; // Timezone offset in seconds\n\n// Convert timestamp to milliseconds and apply timezone offset\nvar date = new Date((timestamp + timezoneOffset) * 1000);\n\n// Get the individual date and time components\nvar year = date.getFullYear();\nvar month = date.getMonth() + 1; // Note: Month is zero-based, so add 1\nvar day = date.getDate();\nvar hours = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\n\n// Format the date and time string\nvar dateTime = year + \"-\" + month + \"-\" + day + \" \" + hours + \":\" + minutes + \":\" + seconds;\n\n// Set the formatted date and time as the output payload\nmsg.payload = dateTime;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 495,
+        "y": 640,
+        "wires": [
+            [
+                "2257db8d39d59f1f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2257db8d39d59f1f",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "254c4fa0178a9c51",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Time",
+        "label": "TIME AT LOCATION:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "0153ec8e0702760d",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "Preasure",
+        "label": "Preasure: ",
+        "format": "{{msg.payload.main.pressure}} mb",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "836871d43c22e72e",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 9",
+        "func": "var detail = msg.payload.weather[0].description; // Descripción del clima desde el payload\n\n// Definir las palabras clave relacionadas con la lluvia y su intensidad correspondiente\nvar palabrasClaveLluvia = [\n    \"light intensity drizzle\",\n    \"light rain\",\n    \"light intensity drizzle rain\",\n    \"drizzle\",\n    \"drizzle rain\",\n    \"heavy intensity drizzle\",\n    \"shower drizzle\",\n    \"light intensity shower rain\",\n    \"ragged shower rain\",\n    \"moderate rain\",\n    \"heavy shower rain and drizzle\",\n    \"shower rain\",\n    \"heavy intensity shower rain\",\n    \"heavy intensity rain\",\n    \"freezing rain\",\n    \"shower rain and drizzle\",\n    \"very heavy rain\",\n    \"extreme rain\"\n];\n\n// Verificar si alguna de las palabras clave está presente en el campo \"detail\"\nfor (var i = 0; i < palabrasClaveLluvia.length; i++) {\n    var regex = new RegExp(\"\\\\b\" + palabrasClaveLluvia[i] + \"\\\\b\", \"i\");\n    if (regex.test(detail)) {\n        msg.payload = palabrasClaveLluvia[i].toUpperCase(); // Establecer la palabra clave correspondiente en mayúsculas como salida del mensaje\n        return msg; // Salir de la función si se encuentra una coincidencia\n    }\n}\n\nmsg.payload = \"NO RAIN\"; // Si no se encuentra ninguna coincidencia, establecer \"NO RAIN\" en mayúsculas como salida del mensaje\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1215,
+        "y": 360,
+        "wires": [
+            [
+                "8b9592aa3dda2d9f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9e35442f7c807f0c",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 10",
+        "func": "var detail = msg.payload.weather[0].description; // Descripción del clima desde el payload\n\n// Definir las palabras clave relacionadas con la lluvia y su intensidad correspondiente\nvar palabrasClaveLluvia = [\n    { palabra: \"light intensity drizzle\", intensidad: 20 },\n    { palabra: \"light rain\", intensidad: 30 },\n    { palabra: \"light intensity drizzle rain\", intensidad: 30 },\n    { palabra: \"drizzle\", intensidad: 30 },\n    { palabra: \"drizzle rain\", intensidad: 40 },\n    { palabra: \"heavy intensity drizzle\", intensidad: 40 },\n    { palabra: \"shower drizzle\", intensidad: 40 },\n    { palabra: \"light intensity shower rain\", intensidad: 40 },\n    { palabra: \"ragged shower rain\", intensidad: 60 },\n    { palabra: \"moderate rain\", intensidad: 60 },\n    { palabra: \"heavy shower rain and drizzle\", intensidad: 60 },\n    { palabra: \"shower rain\", intensidad: 70 },\n    { palabra: \"heavy intensity shower rain\", intensidad: 80 },\n    { palabra: \"heavy intensity rain\", intensidad: 80 },\n    { palabra: \"freezing rain\", intensidad: 50 },\n    { palabra: \"shower rain and drizzle\", intensidad: 50 },\n    { palabra: \"very heavy rain\", intensidad: 90 },\n    { palabra: \"extreme rain\", intensidad: 100 },\n];\n\npalabrasClaveLluvia.sort(function (a, b) {\n    return a.intensidad - b.intensidad;\n});\n\nvar intensidadAgua = 0; // Inicializar la intensidad de agua como cero\n\n// Verificar si alguna de las palabras clave está presente en el campo \"detail\"\nfor (var i = 0; i < palabrasClaveLluvia.length; i++) {\n    var regex = new RegExp(\"\\\\b\" + palabrasClaveLluvia[i].palabra + \"\\\\b\", \"i\");\n    if (regex.test(detail)) {\n        intensidadAgua = palabrasClaveLluvia[i].intensidad; // Asignar la intensidad correspondiente\n        break; // Salir del bucle si se encuentra una coincidencia\n    }\n}\n\nmsg.payload = intensidadAgua; // Establecer la intensidad de agua como salida del mensaje\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1215,
+        "y": 400,
+        "wires": [
+            [
+                "5114e15793fa0b43"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8b9592aa3dda2d9f",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "name": "Rain Description:",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1370,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5114e15793fa0b43",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "name": "Rain Percentage",
+        "label": "Percentage: ",
+        "format": "{{msg.payload}} %",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1390,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "882f758a887ee2f1",
+        "type": "ui_level",
+        "z": "5e7c129edcf993b5",
+        "group": "c572c4b1cc6bbbdd",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Intensity",
+        "colorHi": "#00007d",
+        "colorWarn": "#007dff",
+        "colorNormal": "#00ffff",
+        "colorOff": "#ffffff",
+        "min": 0,
+        "max": "15",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "m/s",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload.rain[\"1h\"]",
+        "peaktime": 3000,
+        "x": 1410,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5b5d8ca336878cd2",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 11",
+        "func": "if (!msg.payload.rain || !msg.payload.rain[\"1h\"]) {\n    msg.payload.rain = {\n        \"1h\": 0\n    };\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 440,
+        "wires": [
+            [
+                "882f758a887ee2f1"
+            ]
+        ]
+    },
+    {
+        "id": "952e9e6c6edb0f6c",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "daylight clouds",
+        "func": "var sunriseTimestamp = msg.payload.sys.sunrise; // Timestamp del sunrise\nvar sunsetTimestamp = msg.payload.sys.sunset; // Timestamp del sunset\nvar clouds = msg.payload.clouds.all; // Porcentaje de nubosidad\n\nvar currentTime = Math.floor(Date.now() / 1000); // Timestamp actual\n\nvar sunriseToSunsetDuration = sunsetTimestamp - sunriseTimestamp; // Duración en segundos desde el sunrise hasta el sunset\nvar currentTimeRelativeToSunrise = currentTime - sunriseTimestamp; // Tiempo transcurrido desde el sunrise hasta el momento actual\n\nvar daylightPercentage = 0; // Porcentaje de luz del sol inicialmente establecido en 0\n\nif (currentTimeRelativeToSunrise >= 0 && currentTimeRelativeToSunrise <= sunriseToSunsetDuration) {\n    var halfDaylightDuration = sunriseToSunsetDuration / 2; // Duración de la mitad del tiempo entre sunrise y sunset\n    var timeFromMidday = Math.abs(currentTimeRelativeToSunrise - halfDaylightDuration); // Tiempo transcurrido desde la mitad del tiempo hasta el momento actual\n\n    var cloudEffect = (100 - clouds) / 100; // Factor de efecto de las nubes\n\n    daylightPercentage = (1 - timeFromMidday / halfDaylightDuration) * 100 * cloudEffect;\n}\n\nmsg.payload.daylightclouds = daylightPercentage.toFixed(2); // Agregamos el porcentaje de luz con efecto de las nubes al nuevo campo\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 900,
+        "wires": [
+            [
+                "80d7ea9df6684bae",
+                "30b59ebdbb8f4e66"
+            ]
+        ]
+    },
+    {
+        "id": "936fd1c8848f0116",
+        "type": "inject",
+        "z": "5e7c129edcf993b5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "9d6b891092beebe9"
+            ]
+        ]
+    },
+    {
+        "id": "9d6b891092beebe9",
+        "type": "change",
+        "z": "5e7c129edcf993b5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4925e5650ca10bd9",
+        "type": "debug",
+        "z": "5e7c129edcf993b5",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "cbdfc78283daeaae",
+        "type": "mqtt out",
+        "z": "5e7c129edcf993b5",
+        "name": "",
+        "topic": "CITY/sun",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "76f4968f5326e217",
+        "x": 640,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "33982b96f8cd6b79",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "daylightPercentage",
+        "func": "var sunriseTimestamp = msg.payload.sys.sunrise; // Timestamp del sunrise\nvar sunsetTimestamp = msg.payload.sys.sunset; // Timestamp del sunset\n\nvar currentTime = Math.floor(Date.now() / 1000); // Timestamp actual\n\nvar sunriseToSunsetDuration = sunsetTimestamp - sunriseTimestamp; // Duración en segundos desde el sunrise hasta el sunset\nvar currentTimeRelativeToSunrise = currentTime - sunriseTimestamp; // Tiempo transcurrido desde el sunrise hasta el momento actual\n\nvar daylightPercentage = 0; // Porcentaje de luz del sol inicialmente establecido en 0\n\nif (currentTimeRelativeToSunrise >= 0 && currentTimeRelativeToSunrise <= sunriseToSunsetDuration) {\n    var halfDaylightDuration = sunriseToSunsetDuration / 2; // Duración de la mitad del tiempo entre sunrise y sunset\n    var timeFromMidday = Math.abs(currentTimeRelativeToSunrise - halfDaylightDuration); // Tiempo transcurrido desde la mitad del tiempo hasta el momento actual\n\n    daylightPercentage = (1 - timeFromMidday / halfDaylightDuration) * 100;\n}\n\nmsg.payload.daylightPercentage = daylightPercentage.toFixed(2); // Agregamos el porcentaje de luz al payload existente\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 840,
+        "wires": [
+            [
+                "f06ed3ae9cb48a55",
+                "cbdfc78283daeaae",
+                "5cc8174f96837ed5"
+            ]
+        ]
+    },
+    {
+        "id": "5cc8174f96837ed5",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "sunfactor",
+        "func": "var latitude = msg.payload.coord.lat; // Latitud de la ubicación\nvar seasonFactor = getSeasonFactor(); // Factor de estación basado en la fecha actual\n\n// Obtener el valor actual de daylightPercentage\nvar daylightPercentage = parseFloat(msg.payload.daylightPercentage);\n\n// Aplicar el factor de corrección basado en la latitud y la estación\nvar sunFactor = applyCorrection(daylightPercentage, latitude, seasonFactor);\n\n// Crear el nuevo campo sunFactor en el payload\nmsg.payload.sunFactor = sunFactor.toFixed(2);\n\nreturn msg;\n\n// Función para obtener el factor de estación basado en la fecha actual\nfunction getSeasonFactor() {\n    var currentMonth = new Date().getMonth() + 1; // Mes actual (1-12)\n\n    // Asignar un factor de estación basado en el mes actual\n    if (currentMonth >= 3 && currentMonth <= 5) {\n        return 0.75; // Primavera\n    } else if (currentMonth >= 6 && currentMonth <= 8) {\n        return 1.0; // Verano\n    } else if (currentMonth >= 9 && currentMonth <= 11) {\n        return 0.5; // Otoño\n    } else {\n        return 0.25; // Invierno\n    }\n}\n\n// Función para aplicar el factor de corrección a daylightPercentage\nfunction applyCorrection(daylightPercentage, latitude, seasonFactor) {\n    var latitudeFactor = getLatitudeFactor(latitude);\n\n    // Aplicar el factor de corrección\n    var sunFactor = daylightPercentage * latitudeFactor * seasonFactor;\n\n    // Limitar el valor entre 0 y 100\n    sunFactor = Math.max(0, Math.min(100, sunFactor));\n\n    return sunFactor;\n}\n\n// Función para obtener el factor de latitud\nfunction getLatitudeFactor(latitude) {\n    var factor = 1.0;\n\n    // Ajustar el factor de latitud según la zona\n    if (latitude >= 23.5 && latitude <= 66.5) {\n        factor = 0.9; // Zona templada\n    } else if (latitude > 66.5 && latitude <= 90) {\n        factor = 0.7; // Zona polar\n    } else if (latitude >= -66.5 && latitude <= -23.5) {\n        factor = 0.8; // Zona templada (hemisferio sur)\n    } else if (latitude >= -90 && latitude < -66.5) {\n        factor = 0.6; // Zona polar (hemisferio sur)\n    }\n\n    return factor;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 840,
+        "wires": [
+            [
+                "36a762ba57c0b9d1",
+                "4925e5650ca10bd9"
+            ]
+        ]
+    },
+    {
+        "id": "36a762ba57c0b9d1",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "254c4fa0178a9c51",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "name": "Latitud effect",
+        "label": "Latitud effect:",
+        "format": "{{msg.payload.sunFactor}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1010,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "80d7ea9df6684bae",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "sunfactor-clouds",
+        "func": "var latitude = msg.payload.coord.lat; // Latitud de la ubicación\nvar seasonFactor = getSeasonFactor(); // Factor de estación basado en la fecha actual\n\n// Obtener el valor actual de daylightPercentage\nvar daylightPercentage = parseFloat(msg.payload.daylightclouds);\n\n// Aplicar el factor de corrección basado en la latitud y la estación\nvar sunFactor = applyCorrection(daylightPercentage, latitude, seasonFactor);\n\n// Crear el nuevo campo sunFactor en el payload\nmsg.payload.sunFactor = sunFactor.toFixed(2);\n\nreturn msg;\n\n// Función para obtener el factor de estación basado en la fecha actual\nfunction getSeasonFactor() {\n    var currentMonth = new Date().getMonth() + 1; // Mes actual (1-12)\n\n    // Asignar un factor de estación basado en el mes actual\n    if (currentMonth >= 3 && currentMonth <= 5) {\n        return 0.75; // Primavera\n    } else if (currentMonth >= 6 && currentMonth <= 8) {\n        return 1.0; // Verano\n    } else if (currentMonth >= 9 && currentMonth <= 11) {\n        return 0.5; // Otoño\n    } else {\n        return 0.25; // Invierno\n    }\n}\n\n// Función para aplicar el factor de corrección a daylightPercentage\nfunction applyCorrection(daylightPercentage, latitude, seasonFactor) {\n    var latitudeFactor = getLatitudeFactor(latitude);\n\n    // Aplicar el factor de corrección\n    var sunFactor = daylightPercentage * latitudeFactor * seasonFactor;\n\n    // Limitar el valor entre 0 y 100\n    sunFactor = Math.max(0, Math.min(100, sunFactor));\n\n    return sunFactor;\n}\n\n// Función para obtener el factor de latitud\nfunction getLatitudeFactor(latitude) {\n    var factor = 1.0;\n\n    // Ajustar el factor de latitud según la zona\n    if (latitude >= 23.5 && latitude <= 66.5) {\n        factor = 0.9; // Zona templada\n    } else if (latitude > 66.5 && latitude <= 90) {\n        factor = 0.7; // Zona polar\n    } else if (latitude >= -66.5 && latitude <= -23.5) {\n        factor = 0.8; // Zona templada (hemisferio sur)\n    } else if (latitude >= -90 && latitude < -66.5) {\n        factor = 0.6; // Zona polar (hemisferio sur)\n    }\n\n    return factor;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 900,
+        "wires": [
+            [
+                "e84a5eee3765cc36"
+            ]
+        ]
+    },
+    {
+        "id": "e84a5eee3765cc36",
+        "type": "ui_text",
+        "z": "5e7c129edcf993b5",
+        "group": "254c4fa0178a9c51",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "name": "Latitud Clouds",
+        "label": "Latitud-Clouds",
+        "format": "{{msg.payload.sunFactor}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1020,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "ba98b8b2c99c0d37",
+        "type": "function",
+        "z": "5e7c129edcf993b5",
+        "name": "function 15",
+        "func": "var originalPayload = msg.payload;\n\n// Salida 1: daylightPercentage\nvar daylightPercentage = parseFloat(originalPayload.daylightPercentage);\nvar output1 = {\n    topic: \"daylightPercentage\",\n    payload: daylightPercentage\n};\n\n// Salida 2: sunFactor\nvar sunFactor = parseFloat(originalPayload.sunFactor);\nvar output2 = {\n    topic: \"sunFactor\",\n    payload: sunFactor\n};\n\nreturn [output1, output2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 700,
+        "wires": [
+            [
+                "0e145f7a3717c5da"
+            ],
+            [
+                "0e145f7a3717c5da"
+            ]
+        ]
+    },
+    {
+        "id": "0e145f7a3717c5da",
+        "type": "ui_chart",
+        "z": "5e7c129edcf993b5",
+        "d": true,
+        "name": "",
+        "group": "254c4fa0178a9c51",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 770,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d5f3ac1b77490de",
+        "type": "ui_widget_thermometer",
+        "z": "7fdcf755e44b4247",
+        "group": "f672dd6ecd7320b0",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "name": "",
+        "title": "Temperature",
+        "numColor": "2",
+        "colorTop": "#2196f3",
+        "colorMiddle": "#8bc34a",
+        "colorBottom": "#f44336",
+        "unit": "°C",
+        "scale": "normal",
+        "minTemp": 0,
+        "maxTemp": "50",
+        "minTempMoreThanMaxTemp": "1",
+        "numberOfDecimals": "2",
+        "showPercentage": "0",
+        "x": 890,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f5f8b3f236b1b169",
+        "type": "ui_widget_humidity_tree",
+        "z": "7fdcf755e44b4247",
+        "group": "fcd706e00d0dbcce",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "title": "Soil Moisture",
+        "colorHumidMax": "#006000",
+        "colorHumidMin": "#945818",
+        "x": 890,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "6a644786a46089e2",
+        "type": "ui_lineargauge",
+        "z": "7fdcf755e44b4247",
+        "group": "42ab661b1ed7eaca",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "colorLowArea": "#ffffc0",
+        "colorMidArea": "#99ff99",
+        "colorHighArea": "#ff8080",
+        "unit": "units",
+        "x": 890,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "de0cc4e5f849e311",
+        "type": "mqtt in",
+        "z": "7fdcf755e44b4247",
+        "name": "",
+        "topic": "POWAR/moist",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "76f4968f5326e217",
+        "nl": false,
+        "rap": false,
+        "rh": 0,
+        "inputs": 0,
+        "x": 670,
+        "y": 420,
+        "wires": [
+            [
+                "f5f8b3f236b1b169"
+            ]
+        ]
+    },
+    {
+        "id": "366f597c3c871ee9",
+        "type": "ui_widget_bulb_basic",
+        "z": "7fdcf755e44b4247",
+        "group": "42ab661b1ed7eaca",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "title": "Light",
+        "color": "#ffffff",
+        "x": 1080,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "e6659d54cecc6f19",
+        "type": "mqtt in",
+        "z": "7fdcf755e44b4247",
+        "name": "",
+        "topic": "POWAR/luz",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "76f4968f5326e217",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 670,
+        "y": 500,
+        "wires": [
+            [
+                "6a644786a46089e2",
+                "26f4e4c427d90403"
+            ]
+        ]
+    },
+    {
+        "id": "8b777412c7adbebe",
+        "type": "mqtt in",
+        "z": "7fdcf755e44b4247",
+        "name": "",
+        "topic": "POWAR/temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "76f4968f5326e217",
+        "nl": false,
+        "rap": false,
+        "rh": 0,
+        "inputs": 0,
+        "x": 670,
+        "y": 360,
+        "wires": [
+            [
+                "5d5f3ac1b77490de",
+                "54ecf8f87d1dd8d9"
+            ]
+        ]
+    },
+    {
+        "id": "26f4e4c427d90403",
+        "type": "function",
+        "z": "7fdcf755e44b4247",
+        "name": "function 13",
+        "func": "if (msg.payload > 5) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 500,
+        "wires": [
+            [
+                "366f597c3c871ee9"
+            ]
+        ]
+    },
+    {
+        "id": "0d20ed9bb59ec8f1",
+        "type": "mqtt in",
+        "z": "7fdcf755e44b4247",
+        "name": "",
+        "topic": "POWAR/hum",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "76f4968f5326e217",
+        "nl": false,
+        "rap": false,
+        "rh": 0,
+        "inputs": 0,
+        "x": 670,
+        "y": 300,
+        "wires": [
+            [
+                "73560524247cc0ad",
+                "d3327d091764aeb5"
+            ]
+        ]
+    },
+    {
+        "id": "73560524247cc0ad",
+        "type": "ui_gauge",
+        "z": "7fdcf755e44b4247",
+        "name": "Relative Humidity",
+        "group": "f672dd6ecd7320b0",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "Relative Humidity",
+        "format": "{{value}} %",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#fff700",
+            "#00e67a",
+            "#3a52cb"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "592c3a79ebbbf92b",
+        "type": "inject",
+        "z": "7fdcf755e44b4247",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 660,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3327d091764aeb5",
+        "type": "debug",
+        "z": "7fdcf755e44b4247",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "54ecf8f87d1dd8d9",
+        "type": "debug",
+        "z": "7fdcf755e44b4247",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "08c9a76777b07179",
+        "type": "link in",
+        "z": "0d1cdfb81967bce4",
+        "name": "link in 7",
+        "links": [
+            "e1b7796587d4fc8a"
+        ],
+        "x": 175,
+        "y": 200,
+        "wires": [
+            [
+                "e1ee8bcc1d8fb348"
+            ]
+        ]
+    },
+    {
+        "id": "e1ee8bcc1d8fb348",
+        "type": "function",
+        "z": "0d1cdfb81967bce4",
+        "name": "function 14",
+        "func": "// Obtener el nombre de la ciudad y el país del payload\nvar cityName = msg.payload.name;\nvar countryName = msg.payload.sys.country;\n\n// Publicar el nombre de la ciudad y el país en tópicos MQTT diferentes\nnode.send({ topic: \"CITY/name\", payload: cityName });\nnode.send({ topic: \"CITY/country\", payload: countryName });\n\n// No olvides terminar la ejecución de la función\nreturn null;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "168641979928b317",
+                "c5b690a41517c09c"
+            ]
+        ]
+    },
+    {
+        "id": "168641979928b317",
+        "type": "debug",
+        "z": "0d1cdfb81967bce4",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c5b690a41517c09c",
+        "type": "mqtt out",
+        "z": "0d1cdfb81967bce4",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "76f4968f5326e217",
+        "x": 530,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a9a00c0e7af188d3",
+        "type": "ui_text",
+        "z": "0d1cdfb81967bce4",
+        "group": "42ab661b1ed7eaca",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 550,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "6cfc1120eb00aa93",
+        "type": "ui_text",
+        "z": "0d1cdfb81967bce4",
+        "group": "42ab661b1ed7eaca",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 550,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "500cc895ec348619",
+        "type": "mqtt in",
+        "z": "0d1cdfb81967bce4",
+        "name": "",
+        "topic": "CITY/name",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "76f4968f5326e217",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "a9a00c0e7af188d3"
+            ]
+        ]
+    },
+    {
+        "id": "01c0b32915a09ccc",
+        "type": "mqtt in",
+        "z": "0d1cdfb81967bce4",
+        "name": "",
+        "topic": "CITY/country",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "76f4968f5326e217",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 370,
+        "y": 440,
+        "wires": [
+            [
+                "6cfc1120eb00aa93"
+            ]
+        ]
+    },
+    {
+        "id": "185b91864d5248e5",
+        "type": "ui_template",
+        "z": "37be32cafa7f2402",
+        "group": "28a0295e4c837aae",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<iframe src=\"https://hooge104.shinyapps.io/future_cities_app/\" style=\"width:100%; height:600px;\"></iframe>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 500,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    }
+]
