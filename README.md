@@ -19,6 +19,9 @@ POWAR is a climate simulator in the form of a box that allows users to grow food
 
 ### Technologies Involved:
 
+![alt text](images/powar_interior.jpg)
+
+
 **Seeed Studio WIO Terminal**
 
 https://www.seeedstudio.com/Wio-Terminal-p-4509.html
