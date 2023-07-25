@@ -11,8 +11,11 @@ https://www.hackster.io/pabzul/powar-v2-0-wio-terminal-73f2b9
 
 ### Introduction:
 
+![alt text](images/powar_left.jpg) ![alt text](images/powar_center.jpg) ![alt text](images/powar_right.jpg)
+
 POWAR is a climate simulator in the form of a box that allows users to grow food under future predicted weather scenarios from different cities around the world. It combines the power of technology and education to provide a hands-on experience for students and smallholder farmers alike. By replicating the weather conditions of different regions, POWAR enables users to conduct experiments and observe how crops respond to specific climate conditions. This innovative approach fosters a deeper understanding of the effects of climate change on food production and empowers individuals to make informed decisions. The data generated from these experiments contributes to a global knowledge database, enhancing our understanding of how crops will perform under various climate scenarios. With POWAR, students can learn about climate change, food security, and sustainable agriculture, while smallholder farmers gain valuable insights to enhance their resilience and adaptability. By bridging the gap between education and practical application, POWAR empowers individuals to tackle the challenges of climate change and work towards a more sustainable future.
 
+![alt text](images/powar_dashboard.png)
 
 ### Technologies Involved:
 
@@ -77,7 +80,10 @@ https://wiki.seeedstudio.com/Grove-Moisture_Sensor/
 
 
 ## POWAR IoT Board:
-The Power board is a custom designed development kit for building smart homes, connected devices with IoT capabilities using WIO Terminal
+
+https://www.hackster.io/pabzul/powar-wio-terminal-iot-board-22e1d7
+
+The Power board is a custom designed development kit for building smart homes, connected devices with IoT capabilities using WIO Terminal. An IoT board designed to expand the connectivity of the WIO terminal adding 7 I2C ports, 5 PWM, 5 GPIOS, and 12V & 5V power management.
 
 ![alt text](images/powar_board1.png)
-
+![alt text](images/powar_board2.png)
