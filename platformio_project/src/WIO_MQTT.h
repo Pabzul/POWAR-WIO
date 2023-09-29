@@ -29,6 +29,8 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
   // Verificar el tópico recibido y asignar el valor a la variable
   // correspondiente
+
+  // TODO subscribe to modules listed in powarAccount.modules
   if (String(topic) == "CITY/name") {
     mqttCity = message;
   } else if (String(topic) == "CITY/country") {
@@ -48,6 +50,7 @@ void setupMQTT() {
 }
 
 void reconnectMQTT() {
+  // TODO subscribe to modules listed in powarAccount.modules
   while (!mqttClient.connected()) {
     Serial.println("Connecting to MQTT...");
     if (mqttClient.connect("WioTerminalClient")) {
@@ -67,6 +70,7 @@ void reconnectMQTT() {
 void loopMQTT() { mqttClient.loop(); }
 
 void publishData() {
+  // TODO publish for modules listed in powarAccount.modules
   char tempMessage[10];
   snprintf(tempMessage, sizeof(tempMessage), "%.2f", temperature);
   mqttClient.publish("POWAR/temp", tempMessage);

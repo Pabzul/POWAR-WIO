@@ -64,10 +64,10 @@ void setup() {
   tft.println("Connecting WiFi");
   setupWiFi();
 
-  // handle powar account info
+  // handle powar account info (assign to powarAccount global variable)
   tft.println("Connecting Account");
   handleAccount();
-
+  return;
   tft.println("Connecting MQTT");
   setupMQTT();
 
