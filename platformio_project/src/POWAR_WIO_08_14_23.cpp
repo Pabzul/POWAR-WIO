@@ -67,12 +67,11 @@ void setup() {
   // handle powar account info (assign to powarAccount global variable)
   tft.println("Connecting Account");
   handleAccount();
-  return;
   tft.println("Connecting MQTT");
   setupMQTT();
 
-  // tft.println("Setting SHT40");
-  // setupSHT40();
+  tft.println("Setting SHT40");
+  setupSHT40();
 
   // tft.println("Setting CO2");
   // setCO2();
@@ -163,9 +162,9 @@ void updateSensors() {
     previousSensorUpdateMillis = currentMillis;
 
     // Actualizar los valores de los sensores
-    // readSHT40();
+    readSHT40();
     // ReadCO2();
-    // Moisture_read();
+    Moisture_read();
     publishData();
     // Actualizar las pantallas de las lecturas de los sensores
     // Nota: Aquí asumimos que las funciones Pantalla1(), Pantalla2(),
