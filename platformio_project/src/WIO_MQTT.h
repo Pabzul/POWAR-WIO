@@ -12,7 +12,9 @@ extern String mqttLight;  // Add the variable for CITY/light
 
 WiFiClient espClient;
 PubSubClient mqttClient(espClient);
-const char* mqttServer = "51.68.165.241";
+// const char* mqttServer = "192.168.1.120";
+// const char* mqttServer = "51.68.165.241";
+const char* mqttServer = "170.64.183.247";
 const int mqttPort = 1883;
 
 void callback(char* topic, byte* payload, unsigned int length) {

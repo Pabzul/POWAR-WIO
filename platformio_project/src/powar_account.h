@@ -6,9 +6,13 @@
 #include "SD/Seeed_SD.h"
 #include <rpcWiFi.h>
 #include <HTTPClient.h>
+#include <WiFiClientSecure.h>
 
 #define POWAR_ACCOUNT_FILE "/.powar_account_v3.txt"
 
+// String PLATFORM_URL =
+// "http://powar-platform-git-develop-powar-steam-dev.vercel.app:80";
+String PLATFORM_URL = "http://192.168.1.120:5000";
 /*
 Uses Seeed/FS & SD libraries for reading from SD card
 accepts powar_account struct as argument
@@ -111,7 +115,8 @@ void setupAccount() {
   {
     HTTPClient http;
     Serial.print("[HTTP] POST...\n");
-    http.begin("http://192.168.1.120:3000/api/pair?type=start");
+    // http.begin(PLATFORM_URL + "/api/pair?type=start");
+    http.begin("http://192.168.1.120:5000/api/pair?type=start");
     http.addHeader("Content-Type", "text/plain");
     int httpCode = http.POST(mac_address);
     // httpCode will be negative on error
@@ -147,7 +152,8 @@ void setupAccount() {
       HTTPClient http;
       // call pair again with pairing code to check if pairing was
       // successful
-      http.begin("http://192.168.1.120:3000/api/pair?type=verify");
+      http.begin("http://192.168.1.120:5000/api/pair?type=verify");
+      http.addHeader("Content-Type", "text/plain");
       Serial.print("[HTTP] POST...\n");
       // body is <mac_address>:<pairing_code>
       String body = mac_address + ":" + pairing_code;
@@ -239,10 +245,11 @@ void setupAccount() {
 
 void handleAccount() {
   powar_account account;
-  powar_account_status account_status = read_powar_account(account);
-  if (account_status == POWAR_ACCOUNT_NOT_FOUND) {
-    setupAccount();
-  }
+  powar_account_status account_status;
+  // = read_powar_account(account);
+  // if (account_status == POWAR_ACCOUNT_NOT_FOUND) {
+  setupAccount();
+  // }
   account_status = read_powar_account(account);
   if (account_status != POWAR_ACCOUNT_SUCCESS) {
     Serial.println("Error reading account from SD card");

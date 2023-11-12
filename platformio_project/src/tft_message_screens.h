@@ -21,7 +21,7 @@ void wifiConfigModeCallbackScreen() {
   tft.setTextDatum(TC_DATUM);
   tft.drawString("POWAR STEAM", tft.width() / 2, tft.height() * 3 / 9);
   tft.drawString("Configure My WiFi", tft.width() / 2, tft.height() * 4 / 9);
-  playNote('f', 200);
+  // playNote('f', 200);
 }
 // define AButton
 #define AButton tft.width() / 2 + 12
@@ -37,7 +37,7 @@ void accountNotSetupScreen() {
   tft.drawString("Press Button", tft.width() / 2, tft.height() * 5 / 9);
   tft.drawString("to Continue", tft.width() / 2, tft.height() * 6 / 9);
   tft.fillTriangle(AButton, 0, AButton - 10, 10, AButton + 10, 10, TFT_BLUE);
-  playNote('e', 200);
+  // playNote('e', 200);
 }
 
 // screen to show when powar device is contacting server for a pairing code
@@ -47,7 +47,7 @@ void accountPairingScreen() {
   tft.setTextDatum(TC_DATUM);
   tft.drawString("Contacting Server", tft.width() / 2, tft.height() * 3 / 9);
   tft.drawString("Please Wait", tft.width() / 2, tft.height() * 5 / 9);
-  playNote('f', 200);
+  // playNote('f', 200);
 }
 
 // screen to show when powar device is displaying pairing code "Your Pairing
@@ -61,7 +61,7 @@ void accountPairingCodeScreen(String pairing_code) {
   tft.drawString("Press Button", tft.width() / 2, tft.height() * 5 / 9);
   tft.drawString("When Ready", tft.width() / 2, tft.height() * 6 / 9);
   tft.fillTriangle(AButton, 0, AButton - 10, 10, AButton + 10, 10, TFT_BLUE);
-  playNote('g', 200);
+  // playNote('g', 200);
 }
 
 // screen to show when powar device pairing request is waiting on server
@@ -74,5 +74,5 @@ void accountPairingWaitingScreen(String pairing_code) {
   tft.drawString("Try Again", tft.width() / 2, tft.height() * 5 / 9);
   tft.drawString("When Ready", tft.width() / 2, tft.height() * 6 / 9);
   tft.fillTriangle(AButton, 0, AButton - 10, 10, AButton + 10, 10, TFT_BLUE);
-  playNote('a', 200);
+  // playNote('a', 200);
 }
