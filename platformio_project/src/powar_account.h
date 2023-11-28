@@ -244,11 +244,10 @@ void setupAccount() {
 
 void handleAccount() {
   powar_account account;
-  powar_account_status account_status;
-  // = read_powar_account(account);
-  // if (account_status == POWAR_ACCOUNT_NOT_FOUND) {
-  setupAccount();
-  // }
+  powar_account_status account_status = read_powar_account(account);
+  if (account_status == POWAR_ACCOUNT_NOT_FOUND) {
+    setupAccount();
+  }
   account_status = read_powar_account(account);
   if (account_status != POWAR_ACCOUNT_SUCCESS) {
     Serial.println("Error reading account from SD card");
