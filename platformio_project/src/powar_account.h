@@ -35,7 +35,7 @@ typedef enum {
 } powar_account_status;
 
 // read powar_acount file from SD and assign to powar_account struct
-powar_account_status read_powar_account(powar_account &account) {
+powar_account_status read_powar_account(powar_account& account) {
   // check if file exists on SD card
   if (!SD.exists(POWAR_ACCOUNT_FILE)) {
     return POWAR_ACCOUNT_NOT_FOUND;
@@ -73,7 +73,7 @@ powar_account_status read_powar_account(powar_account &account) {
 
 // create powar_account file on SD card, delete and create again if file is
 // already present
-void write_powar_account(powar_account &account) {
+void write_powar_account(powar_account& account) {
   // delete file if it exists
   if (SD.exists(POWAR_ACCOUNT_FILE)) {
     SD.remove(POWAR_ACCOUNT_FILE);
@@ -121,9 +121,9 @@ void setupAccount() {
     // httpCode will be negative on error
     if (httpCode <= 0 || httpCode != HTTP_CODE_OK) {
       Serial.printf("[HTTP] POST... failed, error: %s\n",
-                    http.errorToString(httpCode).c_str());
+        http.errorToString(httpCode).c_str());
       tft.fillScreen(TFT_BLACK);
-      tft.println("Error occured, pairing failed");
+      tft.println("Error occurred, pairing failed");
       http.end();
       while (!buttons.isAPressed()) {
         // wait for user to press A button
@@ -159,22 +159,26 @@ void setupAccount() {
       int httpCode = http.POST(body);
       // httpCode will be negative on error
       if (httpCode <= 0 || httpCode != HTTP_CODE_OK) {
-        Serial.printf("[HTTP] POST... failed, error: %s\n",
-                      http.errorToString(httpCode).c_str());
+        Serial.printf("[HTTP] POST... failed, error: %s\n", http.errorToString(httpCode).c_str());
         tft.fillScreen(TFT_BLACK);
         tft.println("Error occured, pairing failed");
         http.end();
         while (!buttons.isAPressed()) {
           // wait for user to press A button
         }
-        http.end();
+        // Ensure http.end() is called only once
+        // http.end();
         // TODO control flow to try again
         continue;
       }
-      // HTTP header has been sent and Server response header has been handled
-      Serial.printf("[HTTP] POST... code: %d\n", httpCode);
-      // successful response
-      res = http.getString();
+      else {
+        // Successful POST request
+        Serial.printf("[HTTP] POST... success, code: %d\n", httpCode);
+        String payload = http.getString();
+        res.print(payload); // Copy payload to StreamString
+        Serial.println("Response payload: " + payload);
+      }
+
       http.end();
     }
     String type = res.readStringUntil(':');
@@ -202,7 +206,7 @@ void setupAccount() {
   OutputModuleType|InputModuleType will tell what service the module is for. The
   module_id will be used in constructing the topic
   */
-      // read region_id and powar_device_id
+  // read region_id and powar_device_id
       powar_account account;
       String region_id = res.readStringUntil(':');
       account.region_id = region_id;
@@ -216,10 +220,12 @@ void setupAccount() {
         Serial.println("prop: " + prop);
         if (prop == "stop") {
           break;
-        } else if (prop == "name") {
+        }
+        else if (prop == "name") {
           account.name = res.readStringUntil('\n');
           Serial.println("name: " + account.name);
-        } else if (prop == "module") {
+        }
+        else if (prop == "module") {
           String module_type = res.readStringUntil(':');
           Serial.println("module_type: " + module_type);
           String module_topic = res.readStringUntil(':');
@@ -231,16 +237,18 @@ void setupAccount() {
           module.module_type = module_type;
           module.module_topic = module_topic;
           account.modules.push_back(module);
-        } else {
+        }
+        else {
           Serial.println("unknown property: " + prop);
         }
       }
       // write account information to SD card
       write_powar_account(account);
-      return;
+      break;
     }
   }
 }
+
 
 void handleAccount() {
   powar_account account;

@@ -1,16 +1,17 @@
 #pragma once
 
 #include <Arduino.h>
-#include <SensirionI2CSht4x.h>
+#include <SensirionI2cSht4x.h>
 #include <Wire.h>
 
-SensirionI2CSht4x sht4x;
+SensirionI2cSht4x sht4x;
 
 float temperature = 0.0;
 float humidity = 0.0;
 
 void setupSHT40() {
-  sht4x.begin(Wire);
+    int8_t i2cAddress = 0x44;  
+    sht4x.begin(Wire, i2cAddress);
 
   uint32_t serialNumber;
   uint16_t error = sht4x.serialNumber(serialNumber);
